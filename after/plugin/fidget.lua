@@ -1,5 +1,13 @@
 require('fidget').setup({
-    window = {
-        blend = 0
+    progress = {
+        display = {
+            render_limit=1
+        }
+    },
+    notification = {
+        window = {
+            winblend = 0,
+            align = "top"
+        }
     }
 })
