@@ -1,3 +1,6 @@
+# Why? (What is wrong with me?)
+Idk
+
 # Setup
 1. Install Neovim.
 2. Clone this repo where ever the env var `XDG_CONFIG_HOME` points to. If it's not set

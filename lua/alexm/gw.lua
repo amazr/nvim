@@ -37,4 +37,5 @@ vim.keymap.set("n", "<leader>gws", function ()
     vim.cmd("setlocal norelativenumber nonumber")
     local command = ':call jobsend(b:terminal_job_id, "gws\\n")'
     vim.cmd(command)
+
 end)
