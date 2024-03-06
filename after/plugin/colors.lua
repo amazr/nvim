@@ -16,6 +16,7 @@ function ColorMyPencils()
     vim.api.nvim_set_hl(0, "TelescopePromptNormal", { bg = "none" })
 	vim.api.nvim_set_hl(0, "TelescopeBorder", { bg = "none" })
 	vim.api.nvim_set_hl(0, "TelescopeNormal", { bg = "none" })
+	vim.api.nvim_set_hl(0, "LineNr", { fg = "white" })
 end
 
 ColorMyPencils()

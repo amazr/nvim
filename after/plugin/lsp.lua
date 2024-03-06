@@ -70,9 +70,9 @@ local function attach (client, bufnr)
     --vim.keymap.set("i", "<C-h>", function() vim.lsp.buf.signature_help() end, opts)
 end
 
-require('sg').setup {
-    on_attach = attach
-}
+-- require('sg').setup {
+--     on_attach = attach
+-- }
 
 lsp.on_attach(attach)
 

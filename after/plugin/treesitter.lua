@@ -35,6 +35,9 @@ require'nvim-treesitter.configs'.setup {
 
 local tscontext = require'treesitter-context'
 
-tscontext.setup {}
+tscontext.setup {
+    max_lines = 5,
+    trim_scope = 'outer',
+}
 
 vim.keymap.set("n", "[c", function() tscontext.go_to_context() end, { silent = true })
